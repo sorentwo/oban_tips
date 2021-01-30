@@ -1,6 +1,6 @@
 💎 Oban Tip #7 — Perform Job 💎
 
-Did you know you can construct and execute a job for testing with a single command? Use `perform_job/3` from the Testing module to verify a worker, validate options and execute a job inline.
+Did you know you can construct and execute a job for testing with a single command? Use `perform_job/3` from the Testing module to verify a worker, validate options, and execute a job inline.
 
 https://hexdocs.pm/oban/Oban.Testing.html#perform_job/3
 
