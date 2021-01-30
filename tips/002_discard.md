@@ -1,6 +1,6 @@
 💎 Oban Tip #2 — Discard 💎
 
-Did you know you can discard a job to prevent it from retrying again? Return `{:discard, reason}` from a worker's perform/1 and it will record the reason as an error while marking the job discarded
+Did you know you can discard a job to prevent it from retrying again? Return `{:discard, reason}` from a worker's `perform/1` and it will record the reason as an error while marking the job discarded
 
 #myelixirstatus #elixirlang #obanbg
 
